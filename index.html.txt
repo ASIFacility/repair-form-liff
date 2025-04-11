@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>แจ้งซ่อม</title>
+    <script src="https://static.line-scdn.net/liff/edge/2.0/sdk.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>แบบฟอร์มแจ้งซ่อม</h1>
+    <form id="reportForm">
+        <div>
+            <label for="topic">หัวข้อ:</label>
+            <input type="text" id="topic" name="topic" required>
+        </div>
+        <div>
+            <label for="details">รายละเอียดปัญหา:</label>
+            <textarea id="details" name="details" rows="4" required></textarea>
+        </div>
+        <div>
+            <label for="deviceType">ประเภทอุปกรณ์:</label>
+            <input type="text" id="deviceType" name="deviceType">
+        </div>
+        <div>
+            <label for="location">จุดที่พบปัญหา:</label>
+            <input type="text" id="location" name="location">
+        </div>
+        <div>
+            <label for="image">แนบรูปภาพ (URL):</label>
+            <input type="url" id="image" name="image">
+        </div>
+        <button type="submit">ส่ง</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
