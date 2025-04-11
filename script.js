@@ -1,6 +1,6 @@
 async function main() {
     // แทนที่ 'YOUR_LIFF_ID' ด้วย LIFF ID ที่คุณจะได้รับจาก LINE Developers Console
-    await liff.init({ liffId: 'YOUR_LIFF_ID' });
+    await liff.init({ liffId: '2007239204-G2nPwd8j' });
 
     // ตรวจสอบว่าผู้ใช้ Login ผ่าน LINE หรือยัง ถ้ายังให้ Redirect ไปหน้า Login
     if (!liff.isLoggedIn()) {
